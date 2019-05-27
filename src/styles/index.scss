@@ -1,2 +1,8 @@
 @import './variables';
-@import './fonts.scss';
+@import './fonts';
+@import './main';
+
+body {
+    margin: 0;
+    padding: 0;
+}

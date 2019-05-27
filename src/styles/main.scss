@@ -1,0 +1,8 @@
+@import './variables';
+
+.main{
+    background-image: url('#{$pathToImages}/main.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
