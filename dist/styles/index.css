@@ -1,44 +1,76 @@
 @font-face {
   font-family: 'Lato Black';
-  src: url("../../src/fonts/Lato/Lato-Black.ttf") format("truetype"); }
+  src: url("../../fonts/Lato/Lato-Black.ttf") format("truetype"); }
 
 @font-face {
   font-family: 'Lato Bold';
-  src: url("../../src/fonts/Lato/Lato-Bold.ttf") format("truetype"); }
+  src: url("../../fonts/Lato/Lato-Bold.ttf") format("truetype"); }
 
 @font-face {
   font-family: 'Lato Thin';
-  src: url("../../src/fonts/Lato/Lato-Thin.ttf") format("truetype"); }
+  src: url("../../fonts/Lato/Lato-Thin.ttf") format("truetype"); }
 
 @font-face {
   font-family: 'Lato';
-  src: url("../../src/fonts/Lato/Lato-Regular.ttf") format("truetype"); }
+  src: url("../../fonts/Lato/Lato-Regular.ttf") format("truetype"); }
 
 @font-face {
   font-family: 'Lato Hairline';
-  src: url("../../src/fonts/Lato/Lato-Hairline.ttf") format("truetype"); }
+  src: url("../../fonts/Lato/Lato-Hairline.ttf") format("truetype"); }
 
 @font-face {
   font-family: 'OpenSans';
-  src: url("../../src/fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype"); }
+  src: url("../../fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype"); }
 
 @font-face {
   font-family: 'OpenSans Bold';
-  src: url("../../src/fonts/Open_Sans/OpenSans-Bold.ttf") format("truetype"); }
+  src: url("../../fonts/Open_Sans/OpenSans-Bold.ttf") format("truetype"); }
 
 @font-face {
   font-family: 'OpenSans SemiBold';
-  src: url("../../src/fonts/Open_Sans/OpenSans-SemiBold.ttf") format("truetype"); }
+  src: url("../../fonts/Open_Sans/OpenSans-SemiBold.ttf") format("truetype"); }
 
 @font-face {
   font-family: 'OpenSans Light';
-  src: url("../../src/fonts/Open_Sans/OpenSans-Light.ttf") format("truetype"); }
+  src: url("../../fonts/Open_Sans/OpenSans-Light.ttf") format("truetype"); }
 
 .main {
   background-image: url("../../images/main.jpg");
   height: 100vh;
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  padding: 24px 100px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column; }
+  .main__top {
+    display: flex;
+    justify-content: space-between; }
+  .main__content {
+    flex-grow: 1; }
+
+.logo {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Lato Black'; }
+  .logo__dot {
+    color: #4c76ff; }
+
+.top-menu__nav {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+  .top-menu__nav__item {
+    display: inline-block;
+    color: #fff;
+    font-family: 'Lato Thin';
+    font-size: 12px;
+    margin-right: 34px;
+    cursor: pointer; }
+    .top-menu__nav__item:last-child {
+      margin-right: 0; }
+    .top-menu__nav__item:hover {
+      color: #4c76ff; }
 
 body {
   margin: 0;

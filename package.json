@@ -9,7 +9,9 @@
   "author": "A. Sloyan",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.26.5",
     "gulp": "^4.0.2",
+    "gulp-copy": "^4.0.1",
     "gulp-sass": "^4.0.2"
   }
 }
