@@ -15,5 +15,66 @@
     }
     &__content {
         flex-grow: 1;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    &__title {
+        font-size: 62px;
+        font-family: 'Lato Black';
+        color: #fff;
+        margin: 0;
+        &__dot {
+            color: $mainColor;
+        }
+    }
+    &__subtitle {
+        font-size: 48px;
+        font-family: 'Lato Thin';
+        color: #cbcbcb;
+        &__colored {
+            color: $mainColor;
+        }
+    }
+    &__descr {
+        font-family: 'Lato Thin';
+        color: #cbcbcb;
+        font-size: 18px;
+        position: relative;
+        &::before {
+            position: absolute;
+            height: 1px;
+            width: 29px;
+            left: -40px;
+            top: 50%;
+            background: $mainColor;
+            content: '';
+        }
+        &::after {
+            position: absolute;
+            height: 1px;
+            width: 29px;
+            right: -40px;
+            top: 50%;
+            background: $mainColor;
+            content: '';
+        }
+    }
+    &__icons-block {
+        margin-top: 100px;
+        &__icon {
+            color: #fff;
+            opacity: .5;
+            margin-right: 10px;
+            font-size: 18px;
+            cursor: pointer;
+            &:last-child {
+                margin-right: 0;
+            }
+            &:hover {
+                opacity: 1;
+            }
+        }
     }
 }

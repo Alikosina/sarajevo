@@ -1,0 +1,13 @@
+.opportunities {
+    padding: 0 100px;
+    padding-top: 85px;
+    &__descr {
+        text-align: center;
+        font-size: 15px;
+        font-family: 'OpenSans';
+    }
+    &__content {
+        display: flex;
+        justify-content: space-between;
+    }
+}
