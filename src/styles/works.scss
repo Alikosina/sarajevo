@@ -1,0 +1,33 @@
+.works {
+    padding: 0 100px;
+    &__descr {
+        margin-top: 40px;
+        font-family: 'Lato Thin';
+        text-align: center;
+        font-size: 14px;
+    }
+    &__tabs {
+        margin-top: 65px;
+        margin-bottom: 75px;
+        &__buttons {
+            display: flex;
+            justify-content: center;
+            &__button {
+                cursor: pointer;
+                border: none;
+                padding: 10px 20px;
+                border-radius: 10px;
+                font-family: $latoBlack;
+                font-size: 14px;
+                margin-right: 13px;
+                &:last-child {
+                    margin-right: 0;
+                }
+                &:hover {
+                    background-color: #4c76ff;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

@@ -3,39 +3,6 @@
     padding: 0 100px;
     padding-top: 80px;
     height: 435px;
-    &__title {
-        font-size: 28px;
-        color: $mainColor;
-        margin: 0;
-        text-align: center;
-        text-transform: uppercase;
-        font-family: 'Lato Black';
-        &__icon {
-            display: inline-block;
-            margin-top: 25px;
-            font-size: 15px;
-            color: #c2c2c2;
-            position: relative;
-            &::before {
-                content: '';
-                position: absolute;
-                width: 85px;
-                background: #c2c2c2;
-                height: 1px;
-                top: 50%;
-                left: -100px;
-            }
-            &::after {
-                content: '';
-                position: absolute;
-                width: 85px;
-                background: #c2c2c2;
-                height: 1px;
-                top: 50%;
-                right: -100px;
-            }
-        }
-    }
     &__content {
         display: flex;
         margin-top: 75px;

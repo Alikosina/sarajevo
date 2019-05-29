@@ -34,6 +34,36 @@
   font-family: 'OpenSans Light';
   src: url("../../fonts/Open_Sans/OpenSans-Light.ttf") format("truetype"); }
 
+.title {
+  font-size: 28px;
+  color: #4c76ff;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Lato Black'; }
+  .title__icon {
+    display: inline-block;
+    margin-top: 25px;
+    font-size: 15px;
+    color: #c2c2c2;
+    position: relative; }
+    .title__icon::before {
+      content: '';
+      position: absolute;
+      width: 85px;
+      background: #c2c2c2;
+      height: 1px;
+      top: 50%;
+      left: -100px; }
+    .title__icon::after {
+      content: '';
+      position: absolute;
+      width: 85px;
+      background: #c2c2c2;
+      height: 1px;
+      top: 50%;
+      right: -100px; }
+
 .main {
   background-image: url("../../images/main.jpg");
   height: 100vh;
@@ -127,35 +157,6 @@
   padding: 0 100px;
   padding-top: 80px;
   height: 435px; }
-  .features__title {
-    font-size: 28px;
-    color: #4c76ff;
-    margin: 0;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Lato Black'; }
-    .features__title__icon {
-      display: inline-block;
-      margin-top: 25px;
-      font-size: 15px;
-      color: #c2c2c2;
-      position: relative; }
-      .features__title__icon::before {
-        content: '';
-        position: absolute;
-        width: 85px;
-        background: #c2c2c2;
-        height: 1px;
-        top: 50%;
-        left: -100px; }
-      .features__title__icon::after {
-        content: '';
-        position: absolute;
-        width: 85px;
-        background: #c2c2c2;
-        height: 1px;
-        top: 50%;
-        right: -100px; }
   .features__content {
     display: flex;
     margin-top: 75px; }
@@ -183,7 +184,49 @@
     font-family: 'OpenSans'; }
   .opportunities__content {
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    margin-top: 75px; }
+    .opportunities__content__item__block {
+      display: flex;
+      padding: 15px;
+      cursor: pointer; }
+      .opportunities__content__item__block:hover {
+        background-color: #fefce9; }
+      .opportunities__content__item__block:first-child {
+        margin-top: 35px; }
+    .opportunities__content__item__text {
+      margin-left: 40px;
+      font-family: 'OpenSans'; }
+      .opportunities__content__item__text__title {
+        font-family: 'OpenSans Bold';
+        margin-bottom: 15px; }
+
+.works {
+  padding: 0 100px; }
+  .works__descr {
+    margin-top: 40px;
+    font-family: 'Lato Thin';
+    text-align: center;
+    font-size: 14px; }
+  .works__tabs {
+    margin-top: 65px;
+    margin-bottom: 75px; }
+    .works__tabs__buttons {
+      display: flex;
+      justify-content: center; }
+      .works__tabs__buttons__button {
+        cursor: pointer;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 10px;
+        font-family: "Lato Black";
+        font-size: 14px;
+        margin-right: 13px; }
+        .works__tabs__buttons__button:last-child {
+          margin-right: 0; }
+        .works__tabs__buttons__button:hover {
+          background-color: #4c76ff;
+          color: #fff; }
 
 body {
   margin: 0;
