@@ -1,21 +1,21 @@
 .top-menu {
-    &__nav {
-        padding: 0;
-        margin: 0;
-        list-style: none;
-        &__item {
-            display: inline-block;
-            color: #fff;
-            font-family: 'Lato Thin';
-            font-size: 12px;
-            margin-right: 34px;
-            cursor: pointer;
-            &:last-child {
-                margin-right: 0;
-            }
-            &:hover {
-                color: $mainColor;
-            }
-        }
+  &__nav {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    &__item {
+      display: inline-block;
+      color: #fff;
+      font-family: "Lato Thin";
+      font-size: 12px;
+      margin-right: 34px;
+      cursor: pointer;
+      &:last-child {
+        margin-right: 0;
+      }
+      &:hover {
+        color: $mainColor;
+      }
     }
+  }
 }

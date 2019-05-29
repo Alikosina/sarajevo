@@ -1,35 +1,35 @@
 .opportunities {
-    padding: 0 100px;
-    padding-top: 85px;
-    &__descr {
-        text-align: center;
-        font-size: 15px;
-        font-family: 'OpenSans';
-    }
-    &__content {
+  padding: 0 100px;
+  padding-top: 85px;
+  &__descr {
+    text-align: center;
+    font-size: 15px;
+    font-family: "OpenSans";
+  }
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+    &__item {
+      &__block {
         display: flex;
-        justify-content: space-between;
-        margin-top: 75px;
-        &__item {
-            &__block {
-                display: flex;
-                padding: 15px;
-                cursor: pointer;
-                &:hover {
-                    background-color: #fefce9;
-                }
-                &:first-child {
-                    margin-top: 35px;
-                }
-            }
-            &__text {
-                margin-left: 40px;
-                font-family: 'OpenSans';
-                &__title {
-                    font-family: 'OpenSans Bold';
-                    margin-bottom: 15px;
-                }
-            }
+        padding: 15px;
+        cursor: pointer;
+        &:hover {
+          background-color: #fefce9;
         }
+        &:first-child {
+          margin-top: 35px;
+        }
+      }
+      &__text {
+        margin-left: 40px;
+        font-family: "OpenSans";
+        &__title {
+          font-family: "OpenSans Bold";
+          margin-bottom: 15px;
+        }
+      }
     }
+  }
 }

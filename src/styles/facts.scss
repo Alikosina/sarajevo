@@ -1,0 +1,30 @@
+.facts {
+  height: 448px;
+  box-sizing: border-box;
+  padding: 100px;
+  background-image: url("#{$pathToImages}/facts.jpg");
+  &__content {
+    display: flex;
+    margin-top: 15px;
+    &__item {
+      flex-basis: 25%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      &__descr {
+        margin-top: 37px;
+        text-align: center;
+        color: #fff;
+        font-family: $openSans;
+        font-size: 13px;
+        &__num {
+          font-family: $openSansSemiBold;
+          font-size: 45px;
+        }
+        &__text {
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}
