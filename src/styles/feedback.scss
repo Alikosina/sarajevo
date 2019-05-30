@@ -1,0 +1,77 @@
+.feedback {
+  padding: 100px;
+  &__descr {
+    margin-top: 40px;
+    font-family: $latoThin;
+    text-align: center;
+    font-size: 14px;
+  }
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 77px;
+  }
+  &__icons {
+    display: flex;
+    flex-direction: column;
+    color: #cdd2d6;
+    i {
+      margin-bottom: 14px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  &__address {
+    width: 200px;
+    color: #adb2b6;
+    font-family: $openSans;
+    &__title {
+      color: #000;
+      margin-bottom: 30px;
+    }
+  }
+  &__form {
+    padding-right: 40px;
+    flex-grow: 1;
+    &__title {
+      font-size: 20px;
+      font-family: $openSansBold;
+      margin-bottom: 40px;
+    }
+    &__field-block {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 35px;
+      &_send {
+        justify-content: flex-end;
+        align-items: center;
+        i {
+          color: $mainColor;
+          margin-right: 8px;
+        }
+      }
+    }
+    &__field {
+      &_half {
+        width: 45%;
+      }
+      &_full {
+        width: 100%;
+      }
+      &__input {
+        width: 100%;
+        font-family: $openSans;
+        border: none;
+        border-bottom: 1px solid #e0e0e0;
+        padding-bottom: 15px;
+        outline: none;
+      }
+    }
+    &__send-block {
+      font-family: $openSans;
+      font-size: 14px;
+      cursor: pointer;
+    }
+  }
+}
